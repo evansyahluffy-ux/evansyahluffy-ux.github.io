@@ -1,62 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Perpustakaan Online</title>
-</head>
-<body>
-  <h1>Selamat Datang Di NAKAMA FARM JAYA STORE </h1>
-  <a>berbelanja hemat,peliharaan sehat/a>
-</body>
-</html>
+  <meta charset="UTF-8">
+  <title>Toko Pakan Luffy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Toko Pakan Ternak</title>
   <style>
     body {
-      font-family: Arial;
-      text-align: center;
-      background: #f4f4f4;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
     }
+
+    header {
+      background: #27ae60;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .hero {
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
     .card {
       background: white;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
       padding: 20px;
-      margin: 20px;
-      border-radius: 10px;
-    }
-    img {
-      width: 200px;
-      border-radius: 10px;
-    }
-    a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px;
-      background: green;
+      background: #222;
       color: white;
-      text-decoration: none;
-      border-radius: 5px;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>🐔 TOKO PAKAN TERNAK LUFFY</h1>
-  <p>Menyediakan berbagai pakan ternak berkualitas</p>
+<header>
+  🐔 TOKO PAKAN LUFFY
+</header>
 
-  <div class="card">
-    <h2>Pakan Ayam</h2>
-    <img src="https://via.placeholder.com/200">
-    <p>Harga mulai 50rb</p>
+<section class="hero">
+  <h1>Pakan Ternak Berkualitas</h1>
+  <p>Melayani kebutuhan pakan ternak dengan kualitas terbaik & harga terjangkau</p>
+</section>
+
+<section class="section">
+  <h2>Tentang Toko Kami</h2>
+  <p>
+    Toko Pakan Luffy menyediakan berbagai jenis pakan ternak seperti ayam, ikan, dan burung.
+    Kami berkomitmen memberikan produk berkualitas dengan harga yang bersahabat untuk peternak.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Produk Kami</h2>
+
+  <div class="container">
+    <div class="card">
+      <img src="ayam.jpg">
+      <h3>Pakan Ayam</h3>
+      <p>Berkualitas tinggi untuk pertumbuhan maksimal</p>
+    </div>
+
+    <div class="card">
+      <img src="ikan.jpg">
+      <h3>Pakan Ikan</h3>
+      <p>Cocok untuk berbagai jenis ikan</p>
+    </div>
+
+    <div class="card">
+      <img src="burung.jpg">
+      <h3>Pakan Burung</h3>
+      <p>Nutrisi lengkap untuk burung sehat</p>
+    </div>
   </div>
+</section>
 
-  <div class="card">
-    <h2>Pakan Ikan</h2>
-    <img src="https://via.placeholder.com/200">
-    <p>Harga mulai 30rb</p>
-  </div>
+<section class="section">
+  <h2>Kenapa Pilih Kami?</h2>
+  <p>✔ Produk Berkualitas</p>
+  <p>✔ Harga Terjangkau</p>
+  <p>✔ Pelayanan Ramah</p>
+</section>
 
+<section class="section">
+  <h2>Kontak Kami</h2>
+  <p>WhatsApp: 08xxxxxxxxxx</p>
+  <p>Alamat: Bogor, Cawas, Klaten</p>
+</section>
+
+<footer>
+  © 2026 Toko Pakan Luffy
+</footer>
+
+</body>
+</html>
   <a href="https://wa.me/628xxxxxxxxxx">Pesan via WhatsApp</a>
 
 </body>
